@@ -21,3 +21,6 @@ class Fraction:
     
     def __div__(self, other):
         return Fraction(self.num * other.den, self.den * other.num)
+    
+    def __eq__(self,other):
+        return self.den == other.den and 
